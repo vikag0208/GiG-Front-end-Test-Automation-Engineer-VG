@@ -29,7 +29,7 @@ This issue is possible to solve if the user verified the Cypress via
 3. Execute it ->launch  test runner
 4. Go to terminal and run the following command 
 node_modules/.bin/cypress open
-5. To tun all the test under directory ->following comand
+5. To run all the test under directory ->following comand
 node_modules/.bin/cypress run
 
 ###### Tasks
