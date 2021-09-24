@@ -18,11 +18,6 @@ Cypress Installation and Project Set Up
 Cypress just automate the browser.If the user managed test cases and test suits, her or she has to integrate some framework . 
 For example Mocha. It is default in Cypress 
 
-###### Difficulties
-When the user first time rusn the comand in Visual Comand Code, error message is displayed. 
-This issue is possible to solve if the user verified the Cypress via
-\AppData\Local\Cypress\Cache
-
 #### Locating Elements-Capturing CSS Selectors
  Cypress supports only CsS as a locator.
  1. Right click on Element->inspect->copy->copy selector
@@ -60,3 +55,12 @@ Task 2 - Testing that the Shopping Cart tracks items correctly.
 7. Remove the first dress from the cart
 8. Click on ‘Proceed to checkout’
 Create tests to cover the above user journey
+
+
+###### Difficulties
+1.When the user first time rusn the comand in Visual Comand Code, error message is displayed. 
+This issue is possible to solve if the user verified the Cypress via
+\AppData\Local\Cypress\Cache
+2.  When  I was  writing  scypts for Task 2 ->step  5. Click on ‘Proceed to checkout’
+I was getting the  following error "Timed out retrying after 4050ms: cy.click() failed because this element is not visible"
+
