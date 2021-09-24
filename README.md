@@ -58,9 +58,8 @@ Create tests to cover the above user journey
 
 
 ###### Difficulties
-1.When the user first time rusn the comand in Visual Comand Code, error message is displayed. 
+1. When the user first time rusn the comand in Visual Comand Code, error message is displayed. 
 This issue is possible to solve if the user verified the Cypress via
 \AppData\Local\Cypress\Cache
 2.  When  I was  writing  scypts for Task 2 ->step  5. Click on ‘Proceed to checkout’
 I was getting the  following error "Timed out retrying after 4050ms: cy.click() failed because this element is not visible"
-
