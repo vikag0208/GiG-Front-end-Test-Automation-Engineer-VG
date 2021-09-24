@@ -23,6 +23,12 @@ When the user first time rusn the comand in Visual Comand Code, error message is
 This issue is possible to solve if the user verified the Cypress via
 \AppData\Local\Cypress\Cache
 
+#### Locating Elements-Capturing CSS Selectors
+ Cypress supports only CsS as a locator.
+ 1. Right click on Element->inspect->copy->copy selector
+ 2. ChroPathy extension for Chrome automatecally get CSS selector
+ 3. Selector  Playground from Test Runner
+ 
 ###### Running the tests
 1. Write the test cases in Visual Studio Code
 2. Save the file
