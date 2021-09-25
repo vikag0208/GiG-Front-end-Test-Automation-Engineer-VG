@@ -63,4 +63,5 @@ This issue is possible to solve if the user verified the Cypress via
 \AppData\Local\Cypress\Cache
 2.  When  I was  writing  scypts for Task 2 ->step  5. Click on ‘Proceed to checkout’
 I was getting the  following error "Timed out retrying after 4050ms: cy.click() failed because this element is not visible"
-.click({force: true}) worked for me.
+.click({force: true}) did not work for me. I have to use the different scenario via "view my shopping cart"
+
