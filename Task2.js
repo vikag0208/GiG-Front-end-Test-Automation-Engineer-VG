@@ -12,10 +12,9 @@ describe('Task 2', function() {
       cy.wait(1000)
       
       cy.get('[title="Add to cart"]').eq(1).click()				// finds Add to cart button for second dress and clicks it
-      cy.get('[title="Close window"]').click()					// closes the confirmation window
+      cy.get('[title="Proceed to checkout"]').click()					// closes the confirmation window
       cy.wait(1000)
 
-      cy.get('[title="View my shopping cart"]').click()
       cy.get('[name=quantity_4_16_0_0]').clear().type('2')			// Change the quantity of the second dress to ‘2'
       cy.wait(1000)
     
