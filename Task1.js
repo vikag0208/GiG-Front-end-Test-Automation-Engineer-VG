@@ -7,7 +7,7 @@ describe('Task 1', function() {
       cy.get("#email").type('vikag@yopmail.com')		// fills the email field
       cy.wait(1000)
       
-      cy.get('[data-validate="isPasswd"]').type('Welcome1')				// fills the password field
+      cy.get('[data-validate="isPasswd"]').type('Welcome1') // fills the password field
       cy.wait(1000)
       
       cy.get('[name=SubmitLogin]').click()				// clicks on Submit login button
